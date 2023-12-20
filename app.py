@@ -301,6 +301,7 @@ while current_turns < max_turns:
             print("_", end=" ")
         index = index + 1
 
+#displaying info to user
     print("\n")
     print("Misplaced Letters: ", misplaced_letters)
     print("Incorrect Letters: ", incorrect_letters)
@@ -317,7 +318,6 @@ while current_turns < max_turns:
          print("Sorry, you lost. The word was " + word)
          break
     print("Player you have" , max_turns - current_turns, "turns left.")
-             
 
 #close word file
 f.close()
